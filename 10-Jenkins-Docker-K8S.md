@@ -56,7 +56,7 @@ eksctl create cluster --name cluster-name  \
 --zones <AZ-1>,<AZ-2>
 
 ```
-eksctl create cluster --name shalom-cluster --region us-east-1 --node-type t2.medium  --zones us-east-1a,us-east-1b
+eksctl create cluster --name shalom-cluster --region eu-west-1 --node-type t2.medium  --zones eu-west-1a,eu-west-1b
 ```
 
 Note: Cluster creation will take 5 to 10 mins of time (we have to wait). After cluster created we can check nodes using below command.	
